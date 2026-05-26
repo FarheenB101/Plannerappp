@@ -34,30 +34,30 @@ const MOODS=[
 
 const MOOD_IMAGES={
   Wendy:{
-    happy:      "/mood/wendy_happy.png",
-    busy:       "/mood/wendy_busy.png",
-    affectionate:"/mood/wendy_affection.png",
-    tired:      "/mood/wendy_tired.png",
-    sad:        "/mood/wendy_sad.png",
-    hungry:     "/mood/wendy_hungry.png",
-    normal1:    "/mood/wendy_normal_1.png",
-    normal2:    "/mood/wendy_normal_2.png",
-    activity:   "/mood/wendy_activity.png",
-    angry:      "/mood/wendy_angry.png",
-    extra:      "/mood/wendy_grossed_out.png",
+    happy:      "public/mood/wendy_happy.png",
+    busy:       "public/mood/wendy_busy.png",
+    affectionate:"public/mood/wendy_affection.png",
+    tired:      "public/mood/wendy_tired.png",
+    sad:        "public/mood/wendy_sad.png",
+    hungry:     "public/mood/wendy_hungry.png",
+    normal1:    "public/mood/wendy_normal_1.png",
+    normal2:    "public/mood/wendy_normal_2.png",
+    activity:   "public/mood/wendy_activity.png",
+    angry:      "public/mood/wendy_angry.png",
+    extra:      "public/mood/wendy_grossed_out.png",
   },
   Son:{
-    happy:      "/mood/son_happy.png",
-    busy:       "/mood/son_busy.png",
-    affectionate:"/mood/son_affection.png",
-    tired:      "/mood/son_tired.png",
-    sad:        "/mood/son_sad.png",
-    hungry:     "/mood/son_hungry.png",
-    normal1:    "/mood/son_normal_1.png",
-    normal2:    "/mood/son_normal_2.png",
-    activity:   "/mood/son_activity.png",
-    angry:      "/mood/son_angry.png",
-    extra:      "/mood/son_ew.png",
+    happy:      "public/mood/son_happy.png",
+    busy:       "public/mood/son_busy.png",
+    affectionate:"public/mood/son_affection.png",
+    tired:      "public/mood/son_tired.png",
+    sad:        "public/mood/son_sad.png",
+    hungry:     "public/mood/son_hungry.png",
+    normal1:    "public/mood/son_normal_1.png",
+    normal2:    "public/mood/son_normal_2.png",
+    activity:   "public/mood/son_activity.png",
+    angry:      "public/mood/son_angry.png",
+    extra:      "public/mood/son_ew.png",
   },
 };
 
@@ -1345,7 +1345,7 @@ export default function App(){
           </BD>
         ))}
       </div>
-
+      console.log("DEPLOY TEST 123");
       <style>{`
         @keyframes toastIn{
           from{transform:translateY(-16px) scale(.96);opacity:0}
